@@ -7,7 +7,7 @@ while (count < nthPrime) {
 
     for (let index = 2; index <= Math.sqrt(primeCandidate); index++) {
         if (primeCandidate % index == 0) {
-            isPrime = false
+            isPrime = false;
         }
     }
 
